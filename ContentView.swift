@@ -2,10 +2,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationLink(destination: Text("NounView")) {
-            
+        
+      
+        NavigationView {
+            NavigationView {
+                        VStack {
+                            NavigationLink("Navigation", destination: Text("NounView"))
         }
-        .navigationTitle("Navigation")
     
     }
 }
+                                           }
+                                           }
+                                           
